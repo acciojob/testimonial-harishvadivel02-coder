@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #f5f5f5;
+}
+
+/* Main Container */
+.main-container {
+  background-color: #f5f5f5;
+  padding: 30px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+/* Individual Testimonial Box */
+.testimonial {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+}
+
+/* Testimonial Text */
+.text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Author Name */
+.author {
+  text-align: right;
+  font-style: italic;
+  font-size: 14px;
+  color: #333;
+}
